@@ -378,6 +378,12 @@ class Config():
                     "default": False,
                     "type": bool,
                     "description": "Enable Mattermost menu"
+                },
+                "contact": {
+                    "optional": True,
+                    "default": None,
+                    "type": str,
+                    "description": "Support repository URL"
                 }
             }
         }
